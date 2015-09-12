@@ -825,11 +825,11 @@ class HelpPanel extends JFrame {
     content.setLayout(new GridLayout(4,3,10,10));
     JLabel sliders=new JLabel("<html><p>Height and Width Sliders: Adjust the size of the maze</p></html>"); // Repeat the html stuff for all subsequent messages in HelpPanel
     JLabel slowMode=new JLabel("<html><p>Slow mode: Slow down the algorithms so they can be observed</p></html>");
-    JLabel saveInfo=new JLabel("<html><p>Save Button: </p></html>");
-    JLabel clearInfo=new JLabel("<html><p>Clear the Maze: </p></html>");
-    JLabel genInfo=new JLabel("<html><p>Generate Button: </p></html>");
-    JLabel solInfo=new JLabel("<html><p>Solve Button: </p></html>");
-    JLabel trem=new JLabel("<html><p>Tremaux Solving: </p></html>");
+    JLabel saveInfo=new JLabel("<html><p>Save Button: Save the current maze as an image</p></html>");
+    JLabel clearInfo=new JLabel("<html><p>Clear the Maze: Remove any effects of the solving algorithms from the maze</p></html>");
+    JLabel genInfo=new JLabel("<html><p>Generate Button: Generate the maze using the selected algorithm</p></html>");
+    JLabel solInfo=new JLabel("<html><p>Solve Button: Solve the maze using the selected algorithm</p></html>");
+    JLabel trem=new JLabel("<html><p>Tremaux Solving: See wikipedia for summaries of the algorithms</p></html>");
     JLabel aSharp=new JLabel("<html><p>A# Solving: </p></html>");
     JLabel dead=new JLabel("<html><p>Dead end solving: </p></html>");
     JLabel prim=new JLabel("<html><p>Prim Generation: </p></html>");
